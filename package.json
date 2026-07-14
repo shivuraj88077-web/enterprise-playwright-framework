@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "test": "playwright test",
+    "smoke": "playwright test --grep @smoke",
+    "sanity": "playwright test --grep @sanity",
+    "regression": "playwright test --grep @regression",
+    "headed": "playwright test --headed",
+    "chrome": "playwright test --project=Chromium",
+    "firefox": "playwright test --project=Firefox",
+    "webkit": "playwright test --project=WebKit",
+    "report": "playwright show-report reports/html"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "allure-playwright": "^3.10.2"
+  }
+}
