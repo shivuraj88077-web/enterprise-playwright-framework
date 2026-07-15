@@ -1,0 +1,129 @@
+[2026-07-16 00:27:35] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:35] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:35] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:36] INFO : ========== Login Started ==========
+[2026-07-16 00:27:36] INFO : ========== Login Started ==========
+[2026-07-16 00:27:36] INFO : Entering Username: standard_user
+[2026-07-16 00:27:36] INFO : Entering value: standard_user
+[2026-07-16 00:27:36] INFO : Entering Username: standard_user
+[2026-07-16 00:27:36] INFO : Entering value: standard_user
+[2026-07-16 00:27:36] INFO : Entering Password
+[2026-07-16 00:27:36] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:36] INFO : Entering Password
+[2026-07-16 00:27:36] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:36] INFO : Clicking Login Button
+[2026-07-16 00:27:36] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:36] INFO : Clicking Login Button
+[2026-07-16 00:27:36] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:37] INFO : Login Completed Successfully
+[2026-07-16 00:27:37] INFO : Login Completed Successfully
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+[2026-07-16 00:27:38] INFO : ========== Login Started ==========
+[2026-07-16 00:27:38] INFO : Entering Username: standard_user
+[2026-07-16 00:27:38] INFO : Entering value: standard_user
+[2026-07-16 00:27:38] INFO : Entering Password
+[2026-07-16 00:27:38] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:38] INFO : Clicking Login Button
+[2026-07-16 00:27:38] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:38] INFO : Login Completed Successfully
+[2026-07-16 00:27:39] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:39] INFO : ========== Login Started ==========
+[2026-07-16 00:27:39] INFO : Entering Username: standard_user
+[2026-07-16 00:27:39] INFO : Entering value: standard_user
+[2026-07-16 00:27:40] INFO : Entering Password
+[2026-07-16 00:27:40] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:40] INFO : Clicking Login Button
+[2026-07-16 00:27:40] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:40] INFO : Login Completed Successfully
+[2026-07-16 00:27:41] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:43] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:46] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:47] INFO : ========== Login Started ==========
+[2026-07-16 00:27:47] INFO : Entering Username: standard_user
+[2026-07-16 00:27:47] INFO : Entering value: standard_user
+[2026-07-16 00:27:47] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:47] INFO : Entering Password
+[2026-07-16 00:27:47] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:47] INFO : Clicking Login Button
+[2026-07-16 00:27:47] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:48] INFO : Login Completed Successfully
+[2026-07-16 00:27:48] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:48] INFO : ========== Login Started ==========
+[2026-07-16 00:27:48] INFO : Entering Username: standard_user
+[2026-07-16 00:27:48] INFO : Entering value: standard_user
+[2026-07-16 00:27:48] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:48] INFO : Entering Password
+[2026-07-16 00:27:48] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:48] INFO : Clicking Login Button
+[2026-07-16 00:27:48] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:49] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+[2026-07-16 00:27:49] INFO : Login Completed Successfully
+[2026-07-16 00:27:49] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:49] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:49] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+[2026-07-16 00:27:50] INFO : ========== Login Started ==========
+[2026-07-16 00:27:50] INFO : Entering Username: standard_user
+[2026-07-16 00:27:50] INFO : Entering value: standard_user
+[2026-07-16 00:27:51] INFO : Entering Password
+[2026-07-16 00:27:51] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:51] INFO : Clicking Login Button
+[2026-07-16 00:27:51] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:51] INFO : ========== Login Started ==========
+[2026-07-16 00:27:51] INFO : Entering Username: standard_user
+[2026-07-16 00:27:51] INFO : Entering value: standard_user
+[2026-07-16 00:27:51] INFO : Login Completed Successfully
+[2026-07-16 00:27:51] INFO : Entering Password
+[2026-07-16 00:27:51] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:51] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:51] INFO : Clicking Login Button
+[2026-07-16 00:27:51] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:51] INFO : Login Completed Successfully
+[2026-07-16 00:27:52] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:57] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:57] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:57] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:57] INFO : ========== Login Started ==========
+[2026-07-16 00:27:57] INFO : Entering Username: standard_user
+[2026-07-16 00:27:57] INFO : Entering value: standard_user
+[2026-07-16 00:27:57] INFO : ========== Login Started ==========
+[2026-07-16 00:27:57] INFO : Entering Username: standard_user
+[2026-07-16 00:27:57] INFO : Entering value: standard_user
+[2026-07-16 00:27:58] INFO : Entering Password
+[2026-07-16 00:27:58] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:58] INFO : Entering Password
+[2026-07-16 00:27:58] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:58] INFO : Clicking Login Button
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:58] INFO : Clicking Login Button
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:58] INFO : Login Completed Successfully
+[2026-07-16 00:27:58] INFO : Login Completed Successfully
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+[2026-07-16 00:28:00] INFO : ========== Login Started ==========
+[2026-07-16 00:28:00] INFO : Entering Username: standard_user
+[2026-07-16 00:28:00] INFO : Entering value: standard_user
+[2026-07-16 00:28:00] INFO : Entering Password
+[2026-07-16 00:28:00] INFO : Entering value: secret_sauce
+[2026-07-16 00:28:00] INFO : Clicking Login Button
+[2026-07-16 00:28:00] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:28:00] INFO : Login Completed Successfully
+[2026-07-16 00:28:00] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:28:00] INFO : ========== Login Started ==========
+[2026-07-16 00:28:00] INFO : Entering Username: standard_user
+[2026-07-16 00:28:00] INFO : Entering value: standard_user
+[2026-07-16 00:28:00] INFO : Entering Password
+[2026-07-16 00:28:00] INFO : Entering value: secret_sauce
+[2026-07-16 00:28:00] INFO : Clicking Login Button
+[2026-07-16 00:28:00] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:28:00] INFO : Login Completed Successfully
+[2026-07-16 00:28:02] INFO : Navigating to URL: https://www.saucedemo.com

@@ -10,5 +10,5 @@ test('Verify BasePage methods', async ({ page }) => {
 
     console.log('Page Title:', title);
 
-    expect(title).toContain('Example');
+    expect(title).toContain('Swag Labs');
 });

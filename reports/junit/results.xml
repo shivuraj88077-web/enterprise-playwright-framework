@@ -1,0 +1,506 @@
+<testsuites id="" name="" tests="21" failures="3" skipped="0" errors="0" time="31.425957999999998">
+<testsuite name="BasePage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Chromium" tests="1" failures="1" skipped="0" time="4.461" errors="0">
+<testcase name="Verify BasePage methods" classname="BasePage.spec.ts" time="4.461">
+<system-out>
+<![CDATA[[2026-07-16 00:27:35] INFO : Navigating to URL: https://www.saucedemo.com
+Page Title: Swag Labs
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Chromium/video.webm]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Chromium/error-context.md]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Chromium/trace.zip]]
+[2026-07-16 00:27:41] INFO : Navigating to URL: https://www.saucedemo.com
+Page Title: Swag Labs
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Chromium-retry1/video.webm]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Chromium-retry1/error-context.md]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Chromium-retry1/trace.zip]]
+]]>
+</system-out>
+<failure message="expect(received).toContain(expected) // indexOf" type="expect.toContain">
+<![CDATA[  [Chromium] › BasePage.spec.ts:4:5 › Verify BasePage methods ──────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Example"
+    Received string:    "Swag Labs"
+
+      11 |     console.log('Page Title:', title);
+      12 |
+    > 13 |     expect(title).toContain('Example');
+         |                   ^
+      14 | });
+        at /Users/raj/enterprise/tests/BasePage.spec.ts:13:19
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/BasePage-Verify-BasePage-methods-Chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../test-results/BasePage-Verify-BasePage-methods-Chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Example"
+    Received string:    "Swag Labs"
+
+      11 |     console.log('Page Title:', title);
+      12 |
+    > 13 |     expect(title).toContain('Example');
+         |                   ^
+      14 | });
+        at /Users/raj/enterprise/tests/BasePage.spec.ts:13:19
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Chromium-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Chromium-retry1/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/BasePage-Verify-BasePage-methods-Chromium-retry1/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../test-results/BasePage-Verify-BasePage-methods-Chromium-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="CartPage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Chromium" tests="1" failures="0" skipped="0" time="3.55" errors="0">
+<testcase name="Verify Add and Remove Product from Cart" classname="CartPage.spec.ts" time="3.55">
+<system-out>
+<![CDATA[[2026-07-16 00:27:35] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:36] INFO : ========== Login Started ==========
+[2026-07-16 00:27:36] INFO : Entering Username: standard_user
+[2026-07-16 00:27:36] INFO : Entering value: standard_user
+[2026-07-16 00:27:36] INFO : Entering Password
+[2026-07-16 00:27:36] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:36] INFO : Clicking Login Button
+[2026-07-16 00:27:36] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:37] INFO : Login Completed Successfully
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="CheckoutPage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Chromium" tests="1" failures="0" skipped="0" time="3.77" errors="0">
+<testcase name="@sanity Verify Cart Functionality" classname="CheckoutPage.spec.ts" time="3.77">
+<system-out>
+<![CDATA[[2026-07-16 00:27:35] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:36] INFO : ========== Login Started ==========
+[2026-07-16 00:27:36] INFO : Entering Username: standard_user
+[2026-07-16 00:27:36] INFO : Entering value: standard_user
+[2026-07-16 00:27:36] INFO : Entering Password
+[2026-07-16 00:27:36] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:36] INFO : Clicking Login Button
+[2026-07-16 00:27:36] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:37] INFO : Login Completed Successfully
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:37] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Chromium" tests="2" failures="0" skipped="0" time="7.538" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="5.759">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="1.779">
+</testcase>
+</testsuite>
+<testsuite name="inventory.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Chromium" tests="1" failures="0" skipped="0" time="1.711" errors="0">
+<testcase name="@regression Verify Inventory Page" classname="inventory.spec.ts" time="1.711">
+<system-out>
+<![CDATA[[2026-07-16 00:27:38] INFO : ========== Login Started ==========
+[2026-07-16 00:27:38] INFO : Entering Username: standard_user
+[2026-07-16 00:27:38] INFO : Entering value: standard_user
+[2026-07-16 00:27:38] INFO : Entering Password
+[2026-07-16 00:27:38] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:38] INFO : Clicking Login Button
+[2026-07-16 00:27:38] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:38] INFO : Login Completed Successfully
+[2026-07-16 00:27:39] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="LoginPage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Chromium" tests="1" failures="0" skipped="0" time="1.104" errors="0">
+<testcase name="@smoke Login Test" classname="LoginPage.spec.ts" time="1.104">
+<system-out>
+<![CDATA[[2026-07-16 00:27:39] INFO : ========== Login Started ==========
+[2026-07-16 00:27:39] INFO : Entering Username: standard_user
+[2026-07-16 00:27:39] INFO : Entering value: standard_user
+[2026-07-16 00:27:40] INFO : Entering Password
+[2026-07-16 00:27:40] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:40] INFO : Clicking Login Button
+[2026-07-16 00:27:40] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:40] INFO : Login Completed Successfully
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="BasePage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Firefox" tests="1" failures="1" skipped="0" time="5.609" errors="0">
+<testcase name="Verify BasePage methods" classname="BasePage.spec.ts" time="5.609">
+<system-out>
+<![CDATA[[2026-07-16 00:27:43] INFO : Navigating to URL: https://www.saucedemo.com
+Page Title: Swag Labs
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Firefox/test-failed-1.png]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Firefox/video.webm]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Firefox/error-context.md]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Firefox/trace.zip]]
+[2026-07-16 00:27:52] INFO : Navigating to URL: https://www.saucedemo.com
+Page Title: Swag Labs
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Firefox-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Firefox-retry1/video.webm]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Firefox-retry1/error-context.md]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-Firefox-retry1/trace.zip]]
+]]>
+</system-out>
+<failure message="expect(received).toContain(expected) // indexOf" type="expect.toContain">
+<![CDATA[  [Firefox] › BasePage.spec.ts:4:5 › Verify BasePage methods ───────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Example"
+    Received string:    "Swag Labs"
+
+      11 |     console.log('Page Title:', title);
+      12 |
+    > 13 |     expect(title).toContain('Example');
+         |                   ^
+      14 | });
+        at /Users/raj/enterprise/tests/BasePage.spec.ts:13:19
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Firefox/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/BasePage-Verify-BasePage-methods-Firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace ../test-results/BasePage-Verify-BasePage-methods-Firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Example"
+    Received string:    "Swag Labs"
+
+      11 |     console.log('Page Title:', title);
+      12 |
+    > 13 |     expect(title).toContain('Example');
+         |                   ^
+      14 | });
+        at /Users/raj/enterprise/tests/BasePage.spec.ts:13:19
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Firefox-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Firefox-retry1/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/BasePage-Verify-BasePage-methods-Firefox-retry1/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-Firefox-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../test-results/BasePage-Verify-BasePage-methods-Firefox-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="CartPage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="5.225" errors="0">
+<testcase name="Verify Add and Remove Product from Cart" classname="CartPage.spec.ts" time="5.225">
+<system-out>
+<![CDATA[[2026-07-16 00:27:47] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:48] INFO : ========== Login Started ==========
+[2026-07-16 00:27:48] INFO : Entering Username: standard_user
+[2026-07-16 00:27:48] INFO : Entering value: standard_user
+[2026-07-16 00:27:48] INFO : Entering Password
+[2026-07-16 00:27:48] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:48] INFO : Clicking Login Button
+[2026-07-16 00:27:48] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:49] INFO : Login Completed Successfully
+[2026-07-16 00:27:49] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:49] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:49] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="CheckoutPage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="5.697" errors="0">
+<testcase name="@sanity Verify Cart Functionality" classname="CheckoutPage.spec.ts" time="5.697">
+<system-out>
+<![CDATA[[2026-07-16 00:27:46] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:47] INFO : ========== Login Started ==========
+[2026-07-16 00:27:47] INFO : Entering Username: standard_user
+[2026-07-16 00:27:47] INFO : Entering value: standard_user
+[2026-07-16 00:27:47] INFO : Entering Password
+[2026-07-16 00:27:47] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:47] INFO : Clicking Login Button
+[2026-07-16 00:27:47] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:48] INFO : Login Completed Successfully
+[2026-07-16 00:27:48] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:48] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:49] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Firefox" tests="2" failures="0" skipped="0" time="7.874" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="3.99">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="3.884">
+</testcase>
+</testsuite>
+<testsuite name="inventory.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.487" errors="0">
+<testcase name="@regression Verify Inventory Page" classname="inventory.spec.ts" time="2.487">
+<system-out>
+<![CDATA[[2026-07-16 00:27:50] INFO : ========== Login Started ==========
+[2026-07-16 00:27:50] INFO : Entering Username: standard_user
+[2026-07-16 00:27:50] INFO : Entering value: standard_user
+[2026-07-16 00:27:51] INFO : Entering Password
+[2026-07-16 00:27:51] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:51] INFO : Clicking Login Button
+[2026-07-16 00:27:51] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:51] INFO : Login Completed Successfully
+[2026-07-16 00:27:51] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="LoginPage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="2.166" errors="0">
+<testcase name="@smoke Login Test" classname="LoginPage.spec.ts" time="2.166">
+<system-out>
+<![CDATA[[2026-07-16 00:27:51] INFO : ========== Login Started ==========
+[2026-07-16 00:27:51] INFO : Entering Username: standard_user
+[2026-07-16 00:27:51] INFO : Entering value: standard_user
+[2026-07-16 00:27:51] INFO : Entering Password
+[2026-07-16 00:27:51] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:51] INFO : Clicking Login Button
+[2026-07-16 00:27:51] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:51] INFO : Login Completed Successfully
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="BasePage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="WebKit" tests="1" failures="1" skipped="0" time="6.07" errors="0">
+<testcase name="Verify BasePage methods" classname="BasePage.spec.ts" time="6.07">
+<system-out>
+<![CDATA[[2026-07-16 00:27:57] INFO : Navigating to URL: https://www.saucedemo.com
+Page Title: Swag Labs
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-WebKit/test-failed-1.png]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-WebKit/video.webm]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-WebKit/error-context.md]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-WebKit/trace.zip]]
+[2026-07-16 00:28:02] INFO : Navigating to URL: https://www.saucedemo.com
+Page Title: Swag Labs
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-WebKit-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-WebKit-retry1/video.webm]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-WebKit-retry1/error-context.md]]
+
+[[ATTACHMENT|../../test-results/BasePage-Verify-BasePage-methods-WebKit-retry1/trace.zip]]
+]]>
+</system-out>
+<failure message="expect(received).toContain(expected) // indexOf" type="expect.toContain">
+<![CDATA[  [WebKit] › BasePage.spec.ts:4:5 › Verify BasePage methods ────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Example"
+    Received string:    "Swag Labs"
+
+      11 |     console.log('Page Title:', title);
+      12 |
+    > 13 |     expect(title).toContain('Example');
+         |                   ^
+      14 | });
+        at /Users/raj/enterprise/tests/BasePage.spec.ts:13:19
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-WebKit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-WebKit/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/BasePage-Verify-BasePage-methods-WebKit/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-WebKit/trace.zip
+    Usage:
+
+        npx playwright show-trace ../test-results/BasePage-Verify-BasePage-methods-WebKit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected substring: "Example"
+    Received string:    "Swag Labs"
+
+      11 |     console.log('Page Title:', title);
+      12 |
+    > 13 |     expect(title).toContain('Example');
+         |                   ^
+      14 | });
+        at /Users/raj/enterprise/tests/BasePage.spec.ts:13:19
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-WebKit-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-WebKit-retry1/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/BasePage-Verify-BasePage-methods-WebKit-retry1/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../test-results/BasePage-Verify-BasePage-methods-WebKit-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../test-results/BasePage-Verify-BasePage-methods-WebKit-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="CartPage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="5.783" errors="0">
+<testcase name="Verify Add and Remove Product from Cart" classname="CartPage.spec.ts" time="5.783">
+<system-out>
+<![CDATA[[2026-07-16 00:27:57] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:57] INFO : ========== Login Started ==========
+[2026-07-16 00:27:57] INFO : Entering Username: standard_user
+[2026-07-16 00:27:57] INFO : Entering value: standard_user
+[2026-07-16 00:27:58] INFO : Entering Password
+[2026-07-16 00:27:58] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:58] INFO : Clicking Login Button
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:58] INFO : Login Completed Successfully
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="CheckoutPage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="5.67" errors="0">
+<testcase name="@sanity Verify Cart Functionality" classname="CheckoutPage.spec.ts" time="5.67">
+<system-out>
+<![CDATA[[2026-07-16 00:27:57] INFO : Navigating to URL: https://www.saucedemo.com
+[2026-07-16 00:27:57] INFO : ========== Login Started ==========
+[2026-07-16 00:27:57] INFO : Entering Username: standard_user
+[2026-07-16 00:27:57] INFO : Entering value: standard_user
+[2026-07-16 00:27:58] INFO : Entering Password
+[2026-07-16 00:27:58] INFO : Entering value: secret_sauce
+[2026-07-16 00:27:58] INFO : Clicking Login Button
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:27:58] INFO : Login Completed Successfully
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('.shopping_cart_link')
+[2026-07-16 00:27:58] INFO : Clicking on element: locator('#remove-sauce-labs-backpack')
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="WebKit" tests="2" failures="0" skipped="0" time="5.19" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="3.187">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="2.003">
+</testcase>
+</testsuite>
+<testsuite name="inventory.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="1.712" errors="0">
+<testcase name="@regression Verify Inventory Page" classname="inventory.spec.ts" time="1.712">
+<system-out>
+<![CDATA[[2026-07-16 00:28:00] INFO : ========== Login Started ==========
+[2026-07-16 00:28:00] INFO : Entering Username: standard_user
+[2026-07-16 00:28:00] INFO : Entering value: standard_user
+[2026-07-16 00:28:00] INFO : Entering Password
+[2026-07-16 00:28:00] INFO : Entering value: secret_sauce
+[2026-07-16 00:28:00] INFO : Clicking Login Button
+[2026-07-16 00:28:00] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:28:00] INFO : Login Completed Successfully
+[2026-07-16 00:28:00] INFO : Clicking on element: locator('#add-to-cart-sauce-labs-backpack')
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="LoginPage.spec.ts" timestamp="2026-07-15T18:57:31.390Z" hostname="WebKit" tests="1" failures="0" skipped="0" time="1.685" errors="0">
+<testcase name="@smoke Login Test" classname="LoginPage.spec.ts" time="1.685">
+<system-out>
+<![CDATA[[2026-07-16 00:28:00] INFO : ========== Login Started ==========
+[2026-07-16 00:28:00] INFO : Entering Username: standard_user
+[2026-07-16 00:28:00] INFO : Entering value: standard_user
+[2026-07-16 00:28:00] INFO : Entering Password
+[2026-07-16 00:28:00] INFO : Entering value: secret_sauce
+[2026-07-16 00:28:00] INFO : Clicking Login Button
+[2026-07-16 00:28:00] INFO : Clicking on element: locator('#login-button')
+[2026-07-16 00:28:00] INFO : Login Completed Successfully
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
